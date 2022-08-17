@@ -50,6 +50,8 @@ public class CheckpointFirstApplication {
                     System.out.print(" "+arrayCarros[(leituraTeclado-1)][j]+ ", ");
                 }
                 System.out.println("\n ------------------------------------");
+                System.out.println("1 -> para continuar                     0 -> para sair");
+                leituraTeclado = teclaSair.nextInt();
             }
             if (leituraTeclado == 0) {
                 sair = false;
